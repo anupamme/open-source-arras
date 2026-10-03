@@ -18,7 +18,7 @@ Open Source Arras is not *Anti AI*, *however*, we are *Anti Slop[^1]*.
 
 "AI" is a very broad term, and can describe everything from an editor’s tab completion finishing a loop for you, to consulting ChatGPT for advice, to giving Claude a single prompt and having it build an entire game without ever looking at a single line of code.
 
-In today's world it is unrealistic to pretend that you can outright prevent all humans that interact with your project from using AI in some shape or fashion in their workflow. Our goal is instead to provide meaningful guidelines to all Code Contributions, not only to help foster a new generation of potential developers but also to avoid assumptions about whether something is vibe coded or hand crafted.
+In today's world it is unrealistic to pretend that you can outright prevent all humans that interact with your project from using AI in some shape or fashion in their workflow. Our goal is instead to provide meaningful guidelines to avoid assumptions about whether something is vibe coded or hand crafted.
 
 We are all humans, volunteering our free time to provide a definitive experience for our project and our community. If you see something and have questions or concerns please let us know, it only strengthens us.
 
