@@ -82,7 +82,10 @@ class Editor {
                             preset: require("../../lib/definitions/presets")
                         };
                         const code = `${request.data.replaceAll("export default Class", "")}\nClass;`;
-                        const definitions = vm.runInNewContext(code, context);
+                        const definitions = vm.runInNewContext(code, context, {
+                            timeout: 5000,
+                            contextCodeGeneration: { strings: false, wasm: false }
+                        });
 
                         delete Array.prototype.remove;
                         gameManager.gameHandler.stop();
